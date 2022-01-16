@@ -1,4 +1,8 @@
 
+Para instalar el juego deberemos meter la carpeta de ahorcado en nuestro WAMP, LAMP o XAMP.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
 Esta página es el juego del ahorcado, cuenta con un sistema de usuarios que se guardará en nuestro fichero usuarios.txt
 El juego se puede jugar tanto en página web (Preferiblemente en pantalla completa) como en móvil (500px ancho). 
 

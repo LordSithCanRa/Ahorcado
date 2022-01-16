@@ -1,0 +1,122 @@
+#title{
+    color: cadetblue;
+    text-align: center;
+}
+body{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.cajaLog{
+    background-color: burlywood;
+    border: 2px solid black;
+    width: 40vw;
+    height: 30vh;
+    margin: auto;
+}
+.cajaLog>form{
+    /* background-color:burlywood; */
+    width: 30vw;
+    height: 20vh;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+/* Estilo del formulario */
+form>label{
+    margin-left: 10vw;
+}
+form>label>input{
+    margin-left: 10vw;
+}
+form>input[type=submit]{
+    margin-left: 14vw;
+}
+form>a{
+    margin-left: 7vw;
+}
+.error{
+    margin: auto;
+
+    height: 10vh;
+    width: 30vw;
+    background-color: rgb(226, 59, 59);
+}
+.error>p{
+    font-size: larger;
+    float: none;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.error>a{
+    float: right;
+    margin-right: 20px;
+
+}
+.correcto{
+    background-color: greenyellow;
+    width: 30vw;
+    height: 10vh;
+    margin: auto;
+    margin-top: 50px;
+}
+.correcto>p{
+    float: left;
+    font-size: larger;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 767px) {
+    body{
+        background-image: url(https://cdn.andro4all.com/files/2021/10/gabs-artist-eZ0xOz-ddr4-unsplash.jpg);
+    }
+    .cajaLog{
+        margin-top: 20vh;
+        width: 50vw;
+        height: 30vh;
+    }
+    form>label{
+        margin-left: 2px;
+    }
+    form>label>input{
+        margin-left: 2px;
+    }
+    form>input[type=submit]{
+        margin-left: 3px;
+    }
+    form>a{
+        margin-left: 1px;
+    }
+    .error{
+        margin: auto;
+        border: 3px solid black;
+        width: 35vw;
+        height: 20vh;
+        margin-top: 30vh;
+        background-color: rgb(226, 59, 59);
+    }
+    .error>p{
+        font-size: medium;
+        float: none;
+        
+    }
+    .error>a{
+        float: right;
+        margin-right: 20px;
+    
+    }
+    .correcto{
+        background-color: greenyellow;
+        border: 3px solid black;
+        width: 35vw;
+        height: 20vh;
+        margin-top: 30vh;
+        margin: auto;
+    }
+    .correcto>p{
+        float: left;
+        font-size: medium;
+        margin-top: 10px;
+    }
+    
+}

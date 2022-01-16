@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.info{
+    background-color: bisque;
+    overflow: scroll;
+    border: 2px solid black;
+    width: 30vw;
+    min-width: 400px;
+    height: 50vh;
+    margin: auto;
+    margin-top: 150px;
+}
+.nomArch{
+    font-size: larger;
+    color: rgb(16, 221, 9);
+    font-weight: bolder;
+}
+.t2{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.error{
+    background-color: tomato;
+    width: 50vw;
+    margin: auto;
+    margin-top: 150px;
+    border: 3px solid black;
+}

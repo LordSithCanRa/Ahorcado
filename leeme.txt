@@ -1,0 +1,22 @@
+
+Esta página es el juego del ahorcado, cuenta con un sistema de usuarios que se guardará en nuestro fichero usuarios.txt
+El juego se puede jugar tanto en página web (Preferiblemente en pantalla completa) como en móvil (500px ancho). 
+
+¿Cómo funciona?
+Primero tendremos que pasar el login, por lo que si no estamos registrados deberemos hacerlo, seguidamente tendremos dos opciones o subir
+un archivo.txt o usar un archivo por defecto. Si pulsamos la opción subir archivo nos mostrará un formulario con un input file que validará
+si el fichero es .txt o da algun error, si no da error ninguno nos aparece una ventana que nos mostrará lo que contiene el fichero. La opción
+de subir un archivo no estará para movil. Una vez hayamos pasado la opción del fichero, nos llevará al juego y una vez ganamos o perdamos
+nos dara la opción a salir al login cerrando la sesión o jugar de nuevo.
+
+¿CÓMO SUBO EL ARCHIVO.txt?
+EL formato de mi archivo txt sera el siguiente:(Por cada palabra hay un intro)
+NO SE PUEDEN AGREGAR PALABRAS ESPACIADAS
+NO SE PUEDEN INTRODUCIR EN EL .txt PALABRAS CON TILDES O Ñ O SIMILARES
+
+palabra
+palabra
+palabra
+
+
+ESTE PROYECTO ESTA CREADO POR: Ramón Canelo Arévalo 2ºDAW

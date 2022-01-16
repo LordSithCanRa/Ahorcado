@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Iniciar sesion</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='src/estiloLogin.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="title">
+        <h1>Inicie sesión para jugar al ahorcado</h1>
+    </div>
+    
+    <div class="cajaLog">
+        <form action="entrada.php" method="POST">
+            <label for="usuario">Usuario:
+                <br>
+                <input type="text" name="usuario" id="usuario" required>
+            </label>
+            <br>
+            <br>
+            <label for="password">Contraseña:
+                <br>
+                <input type="text" name="password" id="password" required >
+            </label>
+            <br>
+            <br>
+            <input type="submit" value="Entrar" name="acc">
+            <br>
+            <br>
+            <a href="registro.html" class="registro">¿Aún no te has registrado? Registrate ahora</a>
+        </form>
+        
+        
+    </div>
+</body>
+</html>

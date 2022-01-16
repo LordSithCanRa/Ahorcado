@@ -1,0 +1,6 @@
+Lagarto
+Pez
+Caballo
+Rinoceronte
+Ocelote
+Tortuga

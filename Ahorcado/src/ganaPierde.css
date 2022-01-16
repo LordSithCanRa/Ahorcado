@@ -1,0 +1,45 @@
+#bodyG{
+    background-image: url(gana.PNG);
+}
+#bodyP{
+    background-image: url(perdiste.jfif);
+}
+.gana{
+    background-color: black;
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pierdes{
+    background-color: black;
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.juega{
+    cursor: pointer;
+    border: 3px solid green;
+    background-color: rgb(139, 226, 8);
+    border-radius: 5px;
+}
+.sale{
+    cursor: pointer;
+    border: 3px solid red;
+    background-color: rgb(243, 71, 71);
+    border-radius: 5px;
+    
+}
+@media screen and (max-width: 767px) {
+    body{
+        background-image: url(https://cdn.andro4all.com/files/2021/10/gabs-artist-eZ0xOz-ddr4-unsplash.jpg);
+    }
+    
+}
